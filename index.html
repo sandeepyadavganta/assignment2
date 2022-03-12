@@ -1,0 +1,392 @@
+
+<html>
+
+    <head>
+        <title>Home</title> <!-- Title of WebPage -->
+        <link rel="icon" href="homepageimg.png"> <!-- Adding Icon to WebPage -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+      </head>
+    <body>
+      <style>
+        
+.logo {
+    text-align: center;
+    font-size: 70px;
+    color: red;
+    background: white;
+    width: 105px;
+    height: 113px;
+    border-radius: 50%;
+    position: absolute;
+    top: 10%;
+    margin-left: 43%;
+    font-family: Poppins;
+    font-weight: bold;
+  }
+  
+  .headings {
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    font-weight: normal;
+    position: relative;
+    margin: auto;
+    font-size: 36px;
+    top: -240px;
+  }
+  
+  .locationSelector {
+    position: relative;
+    top: -238px;
+    margin-left: 30%;
+    margin-right: 20%;
+    text-align: center;
+  }
+  
+  .locationDropdown {
+    height: 40px;
+    width: 245px;
+    color: gray;
+    border: none;
+    border-radius: 0px;
+    font-size: 15px;
+    opacity: 0.7;
+    margin-right: 21px;
+    margin-bottom: 25px;
+    float: left;
+  }
+  
+  .restaurantsinput {
+    height: 40px;
+    width: 310px;
+    color: gray;
+    border: none;
+    border-radius: 0px;
+    font-size: 15px;
+    opacity: 0.7;
+    float: left;
+    padding-left: 30px;
+  }
+  
+  .search {
+    position: absolute !important;
+    left: 290px;
+    margin: 2% 0px;
+  }
+  
+  .quicksearch {
+    position: absolute;
+    margin-left: 15px;
+    margin-top: -35px;
+  }
+  
+  .quicksearchHeading {
+    text-align: left;
+    color: #192f60;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    padding-left: 35px;
+  }
+  
+  .quicksearchSubHeading {
+    text-align: left;
+    color: gray;
+    font-size: 18px;
+    font-weight: normal;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    padding-left: 35px;
+  }
+
+        #contentbodypart1{
+    height: 580px;
+    width: 100%;
+    }
+    .container{
+  height: 600px;
+  width: 100%;
+}
+.part1{
+  height: 500px;
+  width: 400px;
+  margin-top: 100px;
+}
+.part2{
+  height: 500px;
+  width: 400px;
+  margin-top: 100px;
+  align-items: center;
+  position: absolute;
+  top: 500px;
+  margin-left: 500px;
+}
+.part3{
+  height: 500px;
+  width: 400px;
+  margin-top: 100px;
+  align-items: center;
+  position: absolute;
+  top: 500px;
+  margin-left: 1000px;
+}
+
+
+      
+#card1{
+  
+  box-shadow: 5px 5px gray;
+
+}
+
+#text1{
+  margin-top: 40px;
+  margin-left: 10px;
+  font-size: 20px;
+  font-weight:normal ;
+}
+#text2{
+  margin-top: 40px;
+  margin-left: 10px;
+  font-size: 20px;
+  font-weight:normal ;
+}
+#head1{
+  font-size: 20px;
+  margin-left: 10px;
+  font-weight: bold;
+}
+#card2{
+
+  box-shadow: 5px 5px gray;
+  margin-top: 30px;
+}
+
+#head2{
+  font-size: 20px;
+  margin-left: 10px;
+  font-weight: bold;
+}
+#img2{
+  margin-left: 1px;
+  
+  }
+
+#img1{
+  
+
+}
+#card3{
+  
+  box-shadow: 5px 5px grey; 
+}
+#img3{
+  margin-left: 1px;
+
+}
+#head3{
+  font-size: 20px;
+  margin-left: 10px;
+  font-weight: bold;
+}
+#text3{
+  margin-top: 40px;
+  margin-left: 10px;
+  font-size: 20px;
+  font-weight:normal ;
+}
+
+#card4{
+  box-shadow: 5px 5px grey; 
+  margin-top: 30px;
+
+}
+#img4{
+  position: relative;
+  padding-top: 10px;
+  margin-left: 1px;
+  
+}
+#head4{
+  font-size: 20px;
+  margin-left: 10px;
+  font-weight: bold;
+}
+#text4{
+  margin-top: 40px;
+  margin-left: 10px;
+  font-size: 20px;
+  font-weight: ;
+}
+#card5{
+
+  box-shadow: 5px 5px grey
+}
+#head5{
+  font-size: 20px;
+  margin-left: 10px;
+  font-weight: bold;
+}
+#text5{
+  margin-top: 40px;
+  margin-left: 10px;
+  font-size: 20px;
+  font-weight:normal ;
+}
+#card6{
+
+  box-shadow: 5px 5px grey; 
+  margin-top: 40px;
+
+}
+#img6{
+  
+}
+#head6{
+  font-size: 20px;
+  margin-left: 10px;
+  font-weight: bold;
+}
+#text6{
+  margin-top: 40px;
+  margin-left: 10px;
+  font-size: 20px;
+  font-weight:normal ;
+}  
+      </style>
+    <div id="contentbodypart1">
+        
+      <img src="homepageimg.png" width=100% height=450>
+      <div>
+          <!-- Adding Logo -->
+          <div class="logo">
+              <p>e!</p>
+          </div>
+          <!-- Adding Heading  -->
+          <div class="headings">
+              Find the best restaurants, cafes, bars
+          </div>
+          <!-- Adding DD + SearchBar -->
+          <div class="locationSelector">
+              <select class="locationDropdown">
+                  <option value="0" selected disabled>Select</option>
+                  <option value="1">Sarjapura,Bangalore</option>
+                  <option value="1">HSR Layout,Bangalore</option>
+                  <option value="1">Kormangala,Bangalore</option>
+                  <option value="1">Bannerghata Road,Bangalore</option>
+              </select>
+              <div>
+                  <input class="restaurantsinput" type="text" placeholder="Please Enter Restaurant Name" />
+                  <span class="glyphicon glyphicon-search search"></span>
+              </div>
+          </div>
+      </div>
+      <!-- Adding Heading -->
+      <div class="quicksearch">
+          <p class="quicksearchHeading">
+              Quick Searches
+          </p>
+          <p class="quicksearchSubHeading">
+              Discover restaurants by type of meal
+          </p>
+     </div>
+     <div class="container">
+       <div class="part1">
+           
+        <div id="card1" class="card mb-3" style="max-width: 530px;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img id="img1" src="breakfast.jpg" width="150px" height="165px">
+            </div>
+            <div class="col-md-8 col2">
+              <div class="card-body">
+                <h5 id="head1" class="card-title">Break Fast</h5>
+                <p id="text1" class="card-text">Start your day with breakfast</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div id="card2" class="card mb-3 justify-content-center" style="max-width: 530px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img id="img2" src="dinner.png" width="150px" height="180px">
+              </div>
+              <div class="col-md-8 col2">
+                <div class="card-body">
+                  <h5 id="head2" class="card-title">Dinner</h5>
+                  <p id="text2" class="card-text">Start your day with dinner</p>
+                </div>
+              </div>
+            </div>
+          </div>
+       </div>
+       <div class="part2">
+         
+    <div id="card3" class="card mb-3" style="max-width: 530px;">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img id="img3" src="lunch.jpg" width="150px" height="165px">
+        </div>
+        <div class="col-md-8 col2">
+          <div class="card-body">
+            <h5 id="head3" class="card-title">Lunch</h5>
+            <p id="text3" class="card-text">Start your day with Lunch</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div id="card4" class="card mb-3 justify-content-center" style="max-width: 530px;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img id="img4" src="drinks.png" width="150px" height="180px">
+          </div>
+          <div class="col-md-8 col2">
+            <div class="card-body">
+              <h5 id="head4" class="card-title">Drinks</h5>
+              <p id="text4" class="card-text">Start your day with Drinks</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+       </div>
+       <div class="part3">
+         
+    <div id="card5" class="card mb-3" style="max-width: 530px;">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img id="img5" src="snacks.png" width="150px" height="165px">
+        </div>
+        <div class="col-md-8 col2">
+          <div class="card-body">
+            <h5 id="head5" class="card-title">snacks</h5>
+            <p id="text5" class="card-text">Start your day with Snacks</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div id="card6" class="card mb-3 justify-content-center" style="max-width: 530px;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img id="img6" src="nightlife.png" width="150px" height="180px">
+          </div>
+          <div class="col-md-8 col2">
+            <div class="card-body">
+              <h5 id="head6" class="card-title">Night Life</h5>
+              <p id="text6" class="card-text">Start your day with Night Life</p>
+            </div>
+          </div>
+        </div>
+      </div> 
+
+
+       </div>
+
+     </div>
+        
+ 
+    </body>      
+    </html>  
